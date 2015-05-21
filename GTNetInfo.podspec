@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "GTNetInfo"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "GTNetInfo provides a fast way to check your connection type."
   s.description      = <<-DESC
                        Use GTNetInfo to know if you're connected, what's the SSID of WiFi network or the type of cellular connection.
