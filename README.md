@@ -7,13 +7,25 @@
 ##Info
 This is a very first alpha release of NetInfo. This library give you an istant access to connectivity status of your device as a snapshot.
 
+## Installation
+
+GTNetInfo is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "GTNetInfo"
+```
+
+In alternative, just download the project and import .h,.m files. Remember that GTNetInfo has Tony Million's [Reachability](https://github.com/tonymillion/Reachability) dependency and needs CoreTelephony.framework and SystemConfiguration.framework
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 To use NetInfo just import it anywhere you need to use it:
-    #import <GTNetInfo.h>
-
+```objective-c
+#import <GTNetInfo.h>
+```
 Create a GtNetInfo object:
 ```objective-c
 GTNetInfo *netInfo = [[GTNetInfo alloc] init];
@@ -35,14 +47,6 @@ NSString* radioTecnology = [netInfo currentRadioTecnology];
 ```
 ## Requirements
 NB: This Alpha does not work on simulator. 
-## Installation
-
-GTNetInfo is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "GTNetInfo"
-```
 
 ## Author
 
