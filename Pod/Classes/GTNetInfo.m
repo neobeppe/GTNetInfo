@@ -8,7 +8,6 @@
 
 #import "GTNetInfo.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
-#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 #import <Reachability/Reachability.h>
 
 @implementation GTNetInfo

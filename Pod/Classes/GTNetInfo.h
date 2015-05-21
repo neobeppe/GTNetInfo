@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
 @interface GTNetInfo : NSObject
 
