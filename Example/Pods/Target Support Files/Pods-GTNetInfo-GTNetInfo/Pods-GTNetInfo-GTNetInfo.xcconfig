@@ -1,0 +1,1 @@
+PODS_GTNETINFO_GTNETINFO_OTHER_LDFLAGS = -framework "CoreTelephony" -framework "SystemConfiguration"

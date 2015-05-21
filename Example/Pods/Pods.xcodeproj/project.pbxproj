@@ -1,0 +1,1137 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13AC1CCA381358FD8008C7D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		1ADCBC6429833D872D261429 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		1E8443758316B1CAFF7B07AB /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94D0FAE62B2E7B94707C5017 /* Pods-Tests-dummy.m */; };
+		3301EA109A6401ADF8D1A5AC /* GTNetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFCBA6EA3FA0A40D64828DF /* GTNetInfo.h */; };
+		3FFC69E4124413CB0F895C35 /* Pods-Tests-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B80817146F85CE81F9DEB /* Pods-Tests-Reachability-dummy.m */; };
+		5F75105C40008D338643E50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		6807A70107399A0A2E2FC547 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64193D90651B50EF39B54359 /* SystemConfiguration.framework */; };
+		6DE01789336119C891AC785D /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E095AAA9A22DE0536E0A8 /* Reachability.m */; };
+		754F167DA4BA49E7AEF0D89A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		75BF38284536085423058B80 /* Pods-GTNetInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A65642225944C389DE535017 /* Pods-GTNetInfo-dummy.m */; };
+		8102455BCD5DD5D91B7DF170 /* GTNetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4717E09EE511B095A8AB23 /* GTNetInfo.m */; };
+		85EFB5256D3DDD60EC382B69 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4AAEE77E09CDE41120361 /* Reachability.h */; };
+		9528481A8A2B7A349AACE5A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64193D90651B50EF39B54359 /* SystemConfiguration.framework */; };
+		95EE32373EAEF331D1CC21B1 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64193D90651B50EF39B54359 /* SystemConfiguration.framework */; };
+		9DD0350A72BAE654DE793E85 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64193D90651B50EF39B54359 /* SystemConfiguration.framework */; };
+		A10E8F119D6477D9C0C896B6 /* Pods-GTNetInfo-GTNetInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B79043AFFFDAE6B1BF504C95 /* Pods-GTNetInfo-GTNetInfo-dummy.m */; };
+		A64EE30F023E37B244E7B949 /* Pods-GTNetInfo-Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 097F56D008184E1E0B983F93 /* Pods-GTNetInfo-Reachability-dummy.m */; };
+		A90315EC0A233B4E1B6FA21D /* GTNetInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CC4717E09EE511B095A8AB23 /* GTNetInfo.m */; };
+		B3220A5F9A8C0408923245D5 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF4AAEE77E09CDE41120361 /* Reachability.h */; };
+		BDE990F60CC102B2171C81D6 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 686E095AAA9A22DE0536E0A8 /* Reachability.m */; };
+		C3E6CEA4288C577F067BB3D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		CA3A389F7075A07CDB76C871 /* GTNetInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FFCBA6EA3FA0A40D64828DF /* GTNetInfo.h */; };
+		CE31E511CE88A6A3C48CAD62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1718F43DE356B60DEAA2FE41 /* Foundation.framework */; };
+		D481F648B73D01173063BB9B /* Pods-Tests-GTNetInfo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A44CEC0B594777D1CFC77E /* Pods-Tests-GTNetInfo-dummy.m */; };
+		E8139D1AFE748FD639386DC5 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7D1480D05F748D779D2D61 /* CoreTelephony.framework */; };
+		F2902B3842612ACC0D27138C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7D1480D05F748D779D2D61 /* CoreTelephony.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FC4273DF02B9D766FA2E9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CD76013AB1B59AC2FB0940;
+			remoteInfo = "Pods-GTNetInfo-GTNetInfo-GTNetInfo";
+		};
+		241D8F68E3B308B0E9246292 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 190C342E05E763F7345FF7AA;
+			remoteInfo = "Pods-Tests-GTNetInfo";
+		};
+		30F202728EC9C35828423280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B61B66CDDFABB30CB23A67;
+			remoteInfo = "Pods-GTNetInfo-Reachability";
+		};
+		90B2AAE08F441B0322F46F28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC60F8D4439B36341FB22027;
+			remoteInfo = "Pods-Tests-Reachability";
+		};
+		AEC8239357539355CBA55B21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC60F8D4439B36341FB22027;
+			remoteInfo = "Pods-Tests-Reachability";
+		};
+		BCE95AD717D5B4270133C746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCDE076D12BE252B7AB57A67;
+			remoteInfo = "Pods-Tests-GTNetInfo-GTNetInfo";
+		};
+		C3328AACD0AB1016B98E7B2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1292458D6CEA8994B55A438F;
+			remoteInfo = "Pods-GTNetInfo-GTNetInfo";
+		};
+		DFC53F80F5DF50D325CE04AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B5DF12DAE643EDB5182DF576 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73B61B66CDDFABB30CB23A67;
+			remoteInfo = "Pods-GTNetInfo-Reachability";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03418674960490DFA42E92F8 /* Pods-Tests-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Tests-environment.h"; sourceTree = "<group>"; };
+		097F56D008184E1E0B983F93 /* Pods-GTNetInfo-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetInfo-Reachability-dummy.m"; sourceTree = "<group>"; };
+		0FFCBA6EA3FA0A40D64828DF /* GTNetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTNetInfo.h; sourceTree = "<group>"; };
+		114CD8345BFA0C63E052FCE8 /* Pods-GTNetInfo-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetInfo-Reachability-prefix.pch"; sourceTree = "<group>"; };
+		12F9419C756CF5303E90D4B7 /* Pods-Tests-GTNetInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-GTNetInfo.xcconfig"; path = "../Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo.xcconfig"; sourceTree = "<group>"; };
+		1718F43DE356B60DEAA2FE41 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		185623A9776889EC8F99384C /* Pods-Tests-Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-Reachability-prefix.pch"; path = "../Pods-Tests-Reachability/Pods-Tests-Reachability-prefix.pch"; sourceTree = "<group>"; };
+		1BF4AAEE77E09CDE41120361 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		28A44CEC0B594777D1CFC77E /* Pods-Tests-GTNetInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-GTNetInfo-dummy.m"; path = "../Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo-dummy.m"; sourceTree = "<group>"; };
+		2C0ACF872078461937FEBD5A /* Pods-GTNetInfo-GTNetInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo-GTNetInfo.xcconfig"; sourceTree = "<group>"; };
+		2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-GTNetInfo-Private.xcconfig"; path = "../Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo-Private.xcconfig"; sourceTree = "<group>"; };
+		38B89464CE0C83C0037E16F9 /* Pods-GTNetInfo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GTNetInfo-resources.sh"; sourceTree = "<group>"; };
+		40B1A942D0F2134890CB69FC /* Pods-GTNetInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo.release.xcconfig"; sourceTree = "<group>"; };
+		44573C969E3F039CD31918AF /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45CAF8DF6BD9240A8AA3A662 /* Pods-Tests-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-Reachability-Private.xcconfig"; path = "../Pods-Tests-Reachability/Pods-Tests-Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		46CC52F0B83DC93C2846CA40 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5597457AA77D1F9751C3FAB9 /* Pods-GTNetInfo-GTNetInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetInfo-GTNetInfo-prefix.pch"; sourceTree = "<group>"; };
+		57D4CBC8362C28EDCC26F9EF /* libPods-GTNetInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTNetInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582067C6DF805A2528924614 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F357868CD64D02E9685F2C6 /* Pods-GTNetInfo-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo-Reachability.xcconfig"; sourceTree = "<group>"; };
+		64193D90651B50EF39B54359 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		64D7213552D9825380C8D9F2 /* GTNetInfo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTNetInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		686E095AAA9A22DE0536E0A8 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6F78F59EF0019F6C4A908438 /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		6F7D1480D05F748D779D2D61 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		869948D8D438A92963479F55 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		94D0FAE62B2E7B94707C5017 /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+		9545C0BDF220A6D01672018C /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		98B2C4F86D3F911A07897189 /* GTNetInfo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTNetInfo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo-GTNetInfo-Private.xcconfig"; sourceTree = "<group>"; };
+		994328BAF677A7803D0FDB2A /* Pods-Tests-GTNetInfo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Pods-Tests-GTNetInfo-prefix.pch"; path = "../Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo-prefix.pch"; sourceTree = "<group>"; };
+		9A3A001A8287BF42064EBF45 /* libPods-GTNetInfo-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTNetInfo-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65642225944C389DE535017 /* Pods-GTNetInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetInfo-dummy.m"; sourceTree = "<group>"; };
+		A71ABB158A1BD856D0EE636C /* libPods-Tests-Reachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-Reachability.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD61D0C402F2F49919B32F00 /* Pods-GTNetInfo-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GTNetInfo-environment.h"; sourceTree = "<group>"; };
+		AE0EAB91C4C17D0E98078879 /* Pods-GTNetInfo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GTNetInfo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B58E8C44320062245BFA7457 /* Pods-GTNetInfo-Reachability-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo-Reachability-Private.xcconfig"; sourceTree = "<group>"; };
+		B79043AFFFDAE6B1BF504C95 /* Pods-GTNetInfo-GTNetInfo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GTNetInfo-GTNetInfo-dummy.m"; sourceTree = "<group>"; };
+		C69B80817146F85CE81F9DEB /* Pods-Tests-Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Pods-Tests-Reachability-dummy.m"; path = "../Pods-Tests-Reachability/Pods-Tests-Reachability-dummy.m"; sourceTree = "<group>"; };
+		CC4717E09EE511B095A8AB23 /* GTNetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GTNetInfo.m; sourceTree = "<group>"; };
+		E160099CAC588BD238E9B9AB /* Pods-GTNetInfo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GTNetInfo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8077E58AB3B11702F463EA8 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		EF3E93B646A3F7153830EFF6 /* Pods-GTNetInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GTNetInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		F6A2DB5D5D67DC1EBF643742 /* libPods-GTNetInfo-GTNetInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GTNetInfo-GTNetInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC01C5AB92DAA58FEF00530 /* Pods-Tests-Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-Reachability.xcconfig"; path = "../Pods-Tests-Reachability/Pods-Tests-Reachability.xcconfig"; sourceTree = "<group>"; };
+		FE774ACC3C5F23F2D1D86348 /* libPods-Tests-GTNetInfo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests-GTNetInfo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66814B44C1C7826D0F7BED18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADCBC6429833D872D261429 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80133E88569A3AF6E1B1B639 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810EA6FA6DE417BD24BFD7F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754F167DA4BA49E7AEF0D89A /* Foundation.framework in Frameworks */,
+				6807A70107399A0A2E2FC547 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A4DE3131ABA25732A1A9A8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3E6CEA4288C577F067BB3D9 /* Foundation.framework in Frameworks */,
+				9528481A8A2B7A349AACE5A7 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A27A660121207FD928A1743B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2902B3842612ACC0D27138C /* CoreTelephony.framework in Frameworks */,
+				CE31E511CE88A6A3C48CAD62 /* Foundation.framework in Frameworks */,
+				95EE32373EAEF331D1CC21B1 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B01FB5761B39E166C2653FC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13AC1CCA381358FD8008C7D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0646111C40E07684F5202DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8139D1AFE748FD639386DC5 /* CoreTelephony.framework in Frameworks */,
+				5F75105C40008D338643E50E /* Foundation.framework in Frameworks */,
+				9DD0350A72BAE654DE793E85 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8A9D17B3873629EE1AE985B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4D1B34377431E427509F35 /* GTNetInfo */ = {
+			isa = PBXGroup;
+			children = (
+				41542974BAC4F25162EEF92F /* Pod */,
+				8EDBF044989D69A6D98FED4D /* Support Files */,
+			);
+			name = GTNetInfo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2A04DEBCAF1CEE3B531D8246 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FFCBA6EA3FA0A40D64828DF /* GTNetInfo.h */,
+				CC4717E09EE511B095A8AB23 /* GTNetInfo.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		35FD35DFD5A0CF63ECE85D97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				458F72C9B6EB33A4B60F8ECF /* Reachability */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3C10D64538DB4854CF061D6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F357868CD64D02E9685F2C6 /* Pods-GTNetInfo-Reachability.xcconfig */,
+				B58E8C44320062245BFA7457 /* Pods-GTNetInfo-Reachability-Private.xcconfig */,
+				097F56D008184E1E0B983F93 /* Pods-GTNetInfo-Reachability-dummy.m */,
+				114CD8345BFA0C63E052FCE8 /* Pods-GTNetInfo-Reachability-prefix.pch */,
+				FAC01C5AB92DAA58FEF00530 /* Pods-Tests-Reachability.xcconfig */,
+				45CAF8DF6BD9240A8AA3A662 /* Pods-Tests-Reachability-Private.xcconfig */,
+				C69B80817146F85CE81F9DEB /* Pods-Tests-Reachability-dummy.m */,
+				185623A9776889EC8F99384C /* Pods-Tests-Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-GTNetInfo-Reachability";
+			sourceTree = "<group>";
+		};
+		41542974BAC4F25162EEF92F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2A04DEBCAF1CEE3B531D8246 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		42F3D92F66541A60B8D55DA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC41F4AD6B9664EC30AC44E3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		458F72C9B6EB33A4B60F8ECF /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				1BF4AAEE77E09CDE41120361 /* Reachability.h */,
+				686E095AAA9A22DE0536E0A8 /* Reachability.m */,
+				3C10D64538DB4854CF061D6F /* Support Files */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		8EDBF044989D69A6D98FED4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C0ACF872078461937FEBD5A /* Pods-GTNetInfo-GTNetInfo.xcconfig */,
+				993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */,
+				B79043AFFFDAE6B1BF504C95 /* Pods-GTNetInfo-GTNetInfo-dummy.m */,
+				5597457AA77D1F9751C3FAB9 /* Pods-GTNetInfo-GTNetInfo-prefix.pch */,
+				12F9419C756CF5303E90D4B7 /* Pods-Tests-GTNetInfo.xcconfig */,
+				2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */,
+				28A44CEC0B594777D1CFC77E /* Pods-Tests-GTNetInfo-dummy.m */,
+				994328BAF677A7803D0FDB2A /* Pods-Tests-GTNetInfo-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Pods-GTNetInfo-GTNetInfo";
+			sourceTree = "<group>";
+		};
+		8FB2EC440D851AB71B0E2054 /* Pods-GTNetInfo */ = {
+			isa = PBXGroup;
+			children = (
+				AE0EAB91C4C17D0E98078879 /* Pods-GTNetInfo-acknowledgements.markdown */,
+				E160099CAC588BD238E9B9AB /* Pods-GTNetInfo-acknowledgements.plist */,
+				A65642225944C389DE535017 /* Pods-GTNetInfo-dummy.m */,
+				AD61D0C402F2F49919B32F00 /* Pods-GTNetInfo-environment.h */,
+				38B89464CE0C83C0037E16F9 /* Pods-GTNetInfo-resources.sh */,
+				EF3E93B646A3F7153830EFF6 /* Pods-GTNetInfo.debug.xcconfig */,
+				40B1A942D0F2134890CB69FC /* Pods-GTNetInfo.release.xcconfig */,
+			);
+			name = "Pods-GTNetInfo";
+			path = "Target Support Files/Pods-GTNetInfo";
+			sourceTree = "<group>";
+		};
+		A7A6AED5BCDA93AD917BA04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B2C4F86D3F911A07897189 /* GTNetInfo.bundle */,
+				64D7213552D9825380C8D9F2 /* GTNetInfo.bundle */,
+				57D4CBC8362C28EDCC26F9EF /* libPods-GTNetInfo.a */,
+				F6A2DB5D5D67DC1EBF643742 /* libPods-GTNetInfo-GTNetInfo.a */,
+				9A3A001A8287BF42064EBF45 /* libPods-GTNetInfo-Reachability.a */,
+				582067C6DF805A2528924614 /* libPods-Tests.a */,
+				FE774ACC3C5F23F2D1D86348 /* libPods-Tests-GTNetInfo.a */,
+				A71ABB158A1BD856D0EE636C /* libPods-Tests-Reachability.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBCAD624C44171BAA41F7AE7 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9545C0BDF220A6D01672018C /* Pods-Tests-acknowledgements.markdown */,
+				869948D8D438A92963479F55 /* Pods-Tests-acknowledgements.plist */,
+				94D0FAE62B2E7B94707C5017 /* Pods-Tests-dummy.m */,
+				03418674960490DFA42E92F8 /* Pods-Tests-environment.h */,
+				6F78F59EF0019F6C4A908438 /* Pods-Tests-resources.sh */,
+				44573C969E3F039CD31918AF /* Pods-Tests.debug.xcconfig */,
+				E8077E58AB3B11702F463EA8 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		CE840059CE1001F57D98D920 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4D1B34377431E427509F35 /* GTNetInfo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D0192A70037F0214BC6F3FE5 = {
+			isa = PBXGroup;
+			children = (
+				46CC52F0B83DC93C2846CA40 /* Podfile */,
+				CE840059CE1001F57D98D920 /* Development Pods */,
+				42F3D92F66541A60B8D55DA3 /* Frameworks */,
+				35FD35DFD5A0CF63ECE85D97 /* Pods */,
+				A7A6AED5BCDA93AD917BA04A /* Products */,
+				EC96A7DE84BB34540A8F3DBA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EC41F4AD6B9664EC30AC44E3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F7D1480D05F748D779D2D61 /* CoreTelephony.framework */,
+				1718F43DE356B60DEAA2FE41 /* Foundation.framework */,
+				64193D90651B50EF39B54359 /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EC96A7DE84BB34540A8F3DBA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FB2EC440D851AB71B0E2054 /* Pods-GTNetInfo */,
+				CBCAD624C44171BAA41F7AE7 /* Pods-Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6F8F037A0FAA11458EF0085B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3220A5F9A8C0408923245D5 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3DDF173ABAA0AAA14AAEEA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EFB5256D3DDD60EC382B69 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBF33A5E92D60E9F6F3CD662 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA3A389F7075A07CDB76C871 /* GTNetInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE8B9D241C4696DD9DA1A1EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3301EA109A6401ADF8D1A5AC /* GTNetInfo.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1292458D6CEA8994B55A438F /* Pods-GTNetInfo-GTNetInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789495CBEA2FBBDAF6DBAEDB /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-GTNetInfo" */;
+			buildPhases = (
+				B913F38347818C71C70C8690 /* Sources */,
+				A27A660121207FD928A1743B /* Frameworks */,
+				CBF33A5E92D60E9F6F3CD662 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010976E72C1ACDEEC4426AD2 /* PBXTargetDependency */,
+				CAD9EA743F7F45B0CD067F99 /* PBXTargetDependency */,
+			);
+			name = "Pods-GTNetInfo-GTNetInfo";
+			productName = "Pods-GTNetInfo-GTNetInfo";
+			productReference = F6A2DB5D5D67DC1EBF643742 /* libPods-GTNetInfo-GTNetInfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		190C342E05E763F7345FF7AA /* Pods-Tests-GTNetInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54BF245D9336BC5FA4328A98 /* Build configuration list for PBXNativeTarget "Pods-Tests-GTNetInfo" */;
+			buildPhases = (
+				98D9AE49A3C62F724E1EF1F1 /* Sources */,
+				D0646111C40E07684F5202DF /* Frameworks */,
+				CE8B9D241C4696DD9DA1A1EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EAC97C707CF5C2CCE84E82DA /* PBXTargetDependency */,
+				9CB226475185E478FA588920 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests-GTNetInfo";
+			productName = "Pods-Tests-GTNetInfo";
+			productReference = FE774ACC3C5F23F2D1D86348 /* libPods-Tests-GTNetInfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1F93601761114866ACAFFBE3 /* Pods-GTNetInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82632E86715C77FBE7AE8040 /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo" */;
+			buildPhases = (
+				A6D030A34B5531D4DFF08E08 /* Sources */,
+				B01FB5761B39E166C2653FC9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FB66603D7B3DDCAFF66CDE /* PBXTargetDependency */,
+				BBEAB814E4ABE43CFA144FDD /* PBXTargetDependency */,
+			);
+			name = "Pods-GTNetInfo";
+			productName = "Pods-GTNetInfo";
+			productReference = 57D4CBC8362C28EDCC26F9EF /* libPods-GTNetInfo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		73B61B66CDDFABB30CB23A67 /* Pods-GTNetInfo-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFF3ADEF20C26642A0A33FB /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-Reachability" */;
+			buildPhases = (
+				AD0141EA045D1A468D98B02A /* Sources */,
+				9A4DE3131ABA25732A1A9A8E /* Frameworks */,
+				A3DDF173ABAA0AAA14AAEEA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GTNetInfo-Reachability";
+			productName = "Pods-GTNetInfo-Reachability";
+			productReference = 9A3A001A8287BF42064EBF45 /* libPods-GTNetInfo-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DC60F8D4439B36341FB22027 /* Pods-Tests-Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C601F2BB58989F562D0E1CF5 /* Build configuration list for PBXNativeTarget "Pods-Tests-Reachability" */;
+			buildPhases = (
+				137546BA8555C3AF83048C72 /* Sources */,
+				810EA6FA6DE417BD24BFD7F5 /* Frameworks */,
+				6F8F037A0FAA11458EF0085B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-Reachability";
+			productName = "Pods-Tests-Reachability";
+			productReference = A71ABB158A1BD856D0EE636C /* libPods-Tests-Reachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DCA31FA6043712AED37A045D /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EED58BFEC1D58D5CBC8E79FE /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				D2B07B3E316C44AE3750B9B1 /* Sources */,
+				66814B44C1C7826D0F7BED18 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30C211C859E042A97F95FB48 /* PBXTargetDependency */,
+				F8F7E9397AFAC4505593B944 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = 582067C6DF805A2528924614 /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6CD76013AB1B59AC2FB0940 /* Pods-GTNetInfo-GTNetInfo-GTNetInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5D1120D960B7D83B0601A6 /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-GTNetInfo-GTNetInfo" */;
+			buildPhases = (
+				1E4F291DEB1791ABB75E157C /* Sources */,
+				80133E88569A3AF6E1B1B639 /* Frameworks */,
+				2906C30340BD6A9902CE3D38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GTNetInfo-GTNetInfo-GTNetInfo";
+			productName = "Pods-GTNetInfo-GTNetInfo-GTNetInfo";
+			productReference = 64D7213552D9825380C8D9F2 /* GTNetInfo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		FCDE076D12BE252B7AB57A67 /* Pods-Tests-GTNetInfo-GTNetInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E12FA51256B5159BE09FDB1 /* Build configuration list for PBXNativeTarget "Pods-Tests-GTNetInfo-GTNetInfo" */;
+			buildPhases = (
+				B84E2E5BFC54D09494FC3A4C /* Sources */,
+				D8A9D17B3873629EE1AE985B /* Frameworks */,
+				6E7C94EEBDA7A1E8338DC1F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Tests-GTNetInfo-GTNetInfo";
+			productName = "Pods-Tests-GTNetInfo-GTNetInfo";
+			productReference = 98B2C4F86D3F911A07897189 /* GTNetInfo.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5DF12DAE643EDB5182DF576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 6577304F95132BE7B815B99A /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0192A70037F0214BC6F3FE5;
+			productRefGroup = A7A6AED5BCDA93AD917BA04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F93601761114866ACAFFBE3 /* Pods-GTNetInfo */,
+				1292458D6CEA8994B55A438F /* Pods-GTNetInfo-GTNetInfo */,
+				F6CD76013AB1B59AC2FB0940 /* Pods-GTNetInfo-GTNetInfo-GTNetInfo */,
+				73B61B66CDDFABB30CB23A67 /* Pods-GTNetInfo-Reachability */,
+				DCA31FA6043712AED37A045D /* Pods-Tests */,
+				190C342E05E763F7345FF7AA /* Pods-Tests-GTNetInfo */,
+				FCDE076D12BE252B7AB57A67 /* Pods-Tests-GTNetInfo-GTNetInfo */,
+				DC60F8D4439B36341FB22027 /* Pods-Tests-Reachability */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2906C30340BD6A9902CE3D38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E7C94EEBDA7A1E8338DC1F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137546BA8555C3AF83048C72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FFC69E4124413CB0F895C35 /* Pods-Tests-Reachability-dummy.m in Sources */,
+				6DE01789336119C891AC785D /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E4F291DEB1791ABB75E157C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98D9AE49A3C62F724E1EF1F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A90315EC0A233B4E1B6FA21D /* GTNetInfo.m in Sources */,
+				D481F648B73D01173063BB9B /* Pods-Tests-GTNetInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6D030A34B5531D4DFF08E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75BF38284536085423058B80 /* Pods-GTNetInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD0141EA045D1A468D98B02A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A64EE30F023E37B244E7B949 /* Pods-GTNetInfo-Reachability-dummy.m in Sources */,
+				BDE990F60CC102B2171C81D6 /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B84E2E5BFC54D09494FC3A4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B913F38347818C71C70C8690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8102455BCD5DD5D91B7DF170 /* GTNetInfo.m in Sources */,
+				A10E8F119D6477D9C0C896B6 /* Pods-GTNetInfo-GTNetInfo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2B07B3E316C44AE3750B9B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8443758316B1CAFF7B07AB /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010976E72C1ACDEEC4426AD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTNetInfo-GTNetInfo-GTNetInfo";
+			target = F6CD76013AB1B59AC2FB0940 /* Pods-GTNetInfo-GTNetInfo-GTNetInfo */;
+			targetProxy = 04FC4273DF02B9D766FA2E9D /* PBXContainerItemProxy */;
+		};
+		30C211C859E042A97F95FB48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-GTNetInfo";
+			target = 190C342E05E763F7345FF7AA /* Pods-Tests-GTNetInfo */;
+			targetProxy = 241D8F68E3B308B0E9246292 /* PBXContainerItemProxy */;
+		};
+		9CB226475185E478FA588920 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-Reachability";
+			target = DC60F8D4439B36341FB22027 /* Pods-Tests-Reachability */;
+			targetProxy = AEC8239357539355CBA55B21 /* PBXContainerItemProxy */;
+		};
+		BBEAB814E4ABE43CFA144FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTNetInfo-Reachability";
+			target = 73B61B66CDDFABB30CB23A67 /* Pods-GTNetInfo-Reachability */;
+			targetProxy = DFC53F80F5DF50D325CE04AF /* PBXContainerItemProxy */;
+		};
+		C2FB66603D7B3DDCAFF66CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTNetInfo-GTNetInfo";
+			target = 1292458D6CEA8994B55A438F /* Pods-GTNetInfo-GTNetInfo */;
+			targetProxy = C3328AACD0AB1016B98E7B2F /* PBXContainerItemProxy */;
+		};
+		CAD9EA743F7F45B0CD067F99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GTNetInfo-Reachability";
+			target = 73B61B66CDDFABB30CB23A67 /* Pods-GTNetInfo-Reachability */;
+			targetProxy = 30F202728EC9C35828423280 /* PBXContainerItemProxy */;
+		};
+		EAC97C707CF5C2CCE84E82DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-GTNetInfo-GTNetInfo";
+			target = FCDE076D12BE252B7AB57A67 /* Pods-Tests-GTNetInfo-GTNetInfo */;
+			targetProxy = BCE95AD717D5B4270133C746 /* PBXContainerItemProxy */;
+		};
+		F8F7E9397AFAC4505593B944 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Tests-Reachability";
+			target = DC60F8D4439B36341FB22027 /* Pods-Tests-Reachability */;
+			targetProxy = 90B2AAE08F441B0322F46F28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E5EB7ABA9E32BDDBD189718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303FFB263DD01CCB2B2105E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GTNetInfo-GTNetInfo/Pods-GTNetInfo-GTNetInfo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35CCE539E71510E5BD2E4692 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3818A4A02665114D5331EFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GTNetInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		41ED715DB742D1DCD82AF05E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF3E93B646A3F7153830EFF6 /* Pods-GTNetInfo.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4C2ACF5A8232B70681C0A639 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CAF8DF6BD9240A8AA3A662 /* Pods-Tests-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-Reachability/Pods-Tests-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58CDA954D833595BDC8405FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40B1A942D0F2134890CB69FC /* Pods-GTNetInfo.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F74B4284DB4515190A62EEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GTNetInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7487AA93CE858049B049CA0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58E8C44320062245BFA7457 /* Pods-GTNetInfo-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GTNetInfo-Reachability/Pods-GTNetInfo-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		77D1722770AFD29C6F3F51C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8077E58AB3B11702F463EA8 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7E82E0A1512FD67976B776E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GTNetInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		9045944ACBAA38318093C054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		962D4C4336B15EBC7A3982ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58E8C44320062245BFA7457 /* Pods-GTNetInfo-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GTNetInfo-Reachability/Pods-GTNetInfo-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9BC9A85325121BAF43E5DD0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-GTNetInfo/Pods-Tests-GTNetInfo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A81C07E65E756821AFBD1A7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FFD34AE68610B255ADDE848 /* Pods-Tests-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = GTNetInfo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B909FF8E20E19C655ED961AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45CAF8DF6BD9240A8AA3A662 /* Pods-Tests-Reachability-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-Tests-Reachability/Pods-Tests-Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D4F3CEE23DE38A303416E215 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 993C094B815147B87336281B /* Pods-GTNetInfo-GTNetInfo-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-GTNetInfo-GTNetInfo/Pods-GTNetInfo-GTNetInfo-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E2D8F0815C6DE637F4596C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44573C969E3F039CD31918AF /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54BF245D9336BC5FA4328A98 /* Build configuration list for PBXNativeTarget "Pods-Tests-GTNetInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BC9A85325121BAF43E5DD0F /* Debug */,
+				9045944ACBAA38318093C054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E12FA51256B5159BE09FDB1 /* Build configuration list for PBXNativeTarget "Pods-Tests-GTNetInfo-GTNetInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A81C07E65E756821AFBD1A7E /* Debug */,
+				5F74B4284DB4515190A62EEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6577304F95132BE7B815B99A /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CCE539E71510E5BD2E4692 /* Debug */,
+				2E5EB7ABA9E32BDDBD189718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789495CBEA2FBBDAF6DBAEDB /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-GTNetInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303FFB263DD01CCB2B2105E0 /* Debug */,
+				D4F3CEE23DE38A303416E215 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82632E86715C77FBE7AE8040 /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41ED715DB742D1DCD82AF05E /* Debug */,
+				58CDA954D833595BDC8405FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFF3ADEF20C26642A0A33FB /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962D4C4336B15EBC7A3982ED /* Debug */,
+				7487AA93CE858049B049CA0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C601F2BB58989F562D0E1CF5 /* Build configuration list for PBXNativeTarget "Pods-Tests-Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2ACF5A8232B70681C0A639 /* Debug */,
+				B909FF8E20E19C655ED961AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EED58BFEC1D58D5CBC8E79FE /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2D8F0815C6DE637F4596C58 /* Debug */,
+				77D1722770AFD29C6F3F51C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5D1120D960B7D83B0601A6 /* Build configuration list for PBXNativeTarget "Pods-GTNetInfo-GTNetInfo-GTNetInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3818A4A02665114D5331EFE0 /* Debug */,
+				7E82E0A1512FD67976B776E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5DF12DAE643EDB5182DF576 /* Project object */;
+}

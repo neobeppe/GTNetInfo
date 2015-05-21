@@ -1,0 +1,17 @@
+PODS:
+  - GTNetInfo (0.1.0):
+    - Reachability
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - GTNetInfo (from `../`)
+
+EXTERNAL SOURCES:
+  GTNetInfo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GTNetInfo: caa3f6c94e58ac6b963311c6282cb6a9a70ea842
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.37.1

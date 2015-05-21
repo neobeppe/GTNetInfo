@@ -10,19 +10,16 @@
 Pod::Spec.new do |s|
   s.name             = "GTNetInfo"
   s.version          = "0.1.0"
-  s.summary          = "A short description of GTNetInfo."
+  s.summary          = "GTNetInfo provides a fast way to check your connection type."
   s.description      = <<-DESC
-                       An optional longer description of GTNetInfo
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       Use GTNetInfo to know if you're connected, what's the SSID of WiFi network or the type of cellular connection.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/GTNetInfo"
+  s.homepage         = "https://github.com/neobeppe/GTNetInfo"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Giuseppe Travasoni" => "giuseppe.travasoni@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/GTNetInfo.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/neobeppe/GTNetInfo.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/neobeppe'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -33,6 +30,6 @@ Pod::Spec.new do |s|
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  s.dependency 'Reachability'
 end
