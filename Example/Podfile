@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'GTNetInfo', :exclusive => true do
+  pod "GTNetInfo", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "GTNetInfo", :path => "../"
+
+  
+end
