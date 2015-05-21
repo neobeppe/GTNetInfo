@@ -30,7 +30,7 @@
     [netInfo isConnected] ? [self.connectedLabel  setText:@"Connected: YES"] : [self.connectedLabel  setText:@"Connected: NO"];
     [netInfo isWifi] ? [self.wifiConnectedLabel  setText:@"WiFi Connection: YES"] : [self.wifiConnectedLabel  setText:@"WiFi Connection: NO"];
     netInfo.currentSSID ? [self.wifiSsidLabel setText:[NSString stringWithFormat:@"WiFi SSID: %@",netInfo.currentSSID]] : [self.wifiSsidLabel setText:@""];
-    netInfo.currentRadioTecnology ? [self.cellularTechnologyLabel setText:[NSString stringWithFormat:@"Cellular Technology SSID: %@",netInfo.currentRadioTecnology]] : [self.cellularTechnologyLabel setText:@""];
+    netInfo.currentRadioTecnology ? [self.cellularTechnologyLabel setText:[NSString stringWithFormat:@"Cellular: %@",netInfo.currentRadioTecnology]] : [self.cellularTechnologyLabel setText:@""];
 }
 
 - (IBAction)refreshButtonTapped:(id)sender {

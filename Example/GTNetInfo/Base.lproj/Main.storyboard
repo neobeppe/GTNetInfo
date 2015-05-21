@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,32 +18,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connected:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx8-lD-JeE">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connected:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx8-lD-JeE">
                                 <rect key="frame" x="16" y="28" width="568" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FZG-ST-e6d"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WiFi Connection:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1y9-Qw-wwh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WiFi Connection:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1y9-Qw-wwh">
                                 <rect key="frame" x="16" y="57" width="568" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="FT7-8Q-d7j"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Cellular Technology:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zW-4N-hG5">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cellular Technology:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8zW-4N-hG5">
                                 <rect key="frame" x="16" y="86" width="568" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="fg9-py-mQp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WiFi SSID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SI-bn-uXh">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WiFi SSID:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8SI-bn-uXh">
                                 <rect key="frame" x="16" y="115" width="568" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="njy-EL-0fi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTh-ke-epK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JTh-ke-epK">
                                 <rect key="frame" x="16" y="144" width="153" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="153" id="CzC-3e-jvQ"/>
+                                    <constraint firstAttribute="height" constant="30" id="xos-qO-Xbm"/>
+                                </constraints>
                                 <state key="normal" title="Refresh">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -52,6 +69,22 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="1y9-Qw-wwh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="ELb-72-Bk2"/>
+                            <constraint firstItem="gx8-lD-JeE" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Hb8-VA-r9W"/>
+                            <constraint firstItem="gx8-lD-JeE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Jch-oI-inF"/>
+                            <constraint firstItem="8SI-bn-uXh" firstAttribute="top" secondItem="8zW-4N-hG5" secondAttribute="bottom" constant="8" id="KCv-hJ-GQA"/>
+                            <constraint firstItem="8SI-bn-uXh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="KgV-Lc-jig"/>
+                            <constraint firstItem="1y9-Qw-wwh" firstAttribute="top" secondItem="gx8-lD-JeE" secondAttribute="bottom" constant="8" id="MVe-IE-dKV"/>
+                            <constraint firstItem="1y9-Qw-wwh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="O7B-a7-ubc"/>
+                            <constraint firstItem="8zW-4N-hG5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="W7D-uL-0UA"/>
+                            <constraint firstItem="8SI-bn-uXh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="hew-Jf-bbr"/>
+                            <constraint firstItem="JTh-ke-epK" firstAttribute="top" secondItem="8SI-bn-uXh" secondAttribute="bottom" constant="8" id="hnw-E9-Lhc"/>
+                            <constraint firstItem="gx8-lD-JeE" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="iWO-jT-yqf"/>
+                            <constraint firstItem="8zW-4N-hG5" firstAttribute="top" secondItem="1y9-Qw-wwh" secondAttribute="bottom" constant="8" id="mnr-bU-WZl"/>
+                            <constraint firstItem="JTh-ke-epK" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="sYO-gt-zmA"/>
+                            <constraint firstItem="8zW-4N-hG5" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="zxc-Q7-x1A"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="cellularTechnologyLabel" destination="8zW-4N-hG5" id="cQl-VZ-sFN"/>
