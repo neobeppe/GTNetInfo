@@ -57,7 +57,6 @@
     NSArray *components = [mac componentsSeparatedByString:@":"];
     
     NSString *macToReturn = @"";
-    
     for (NSString *component in components) {
         if (component.length == 1) macToReturn = [macToReturn stringByAppendingFormat:@"0%@",component];
         else macToReturn = [macToReturn stringByAppendingFormat:@"%@",component];
