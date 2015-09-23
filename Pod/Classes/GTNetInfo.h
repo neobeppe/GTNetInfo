@@ -15,5 +15,6 @@
 @property (nonatomic, readonly, getter=isWifi) BOOL wifi;
 @property (nonatomic, readonly) NSString *currentRadioTecnology;
 @property (nonatomic, readonly) NSString *currentSSID;
+@property (nonatomic, readonly) NSString *currentMAC;
 
 @end

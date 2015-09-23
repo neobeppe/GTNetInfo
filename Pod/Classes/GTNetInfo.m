@@ -20,6 +20,7 @@
         _connected = [reach isReachable];
         if (_wifi) {
             _currentSSID = [self currentWifiSSID];
+            _currentMAC = [self currentMACAddress];
         }
         if (_connected) {
             _currentRadioTecnology = [self getConnectionType];
@@ -39,6 +40,31 @@
         }
     }
     return ssid;
+}
+
+- (NSString *)currentMACAddress {
+    
+    // Does not work on the simulator.
+    NSString *mac = nil;
+    NSArray *ifs = (__bridge_transfer id)CNCopySupportedInterfaces();
+    for (NSString *ifnam in ifs) {
+        NSDictionary *info = (__bridge_transfer id)CNCopyCurrentNetworkInfo((__bridge CFStringRef)ifnam);
+        if (info[@"BSSID"]) {
+            mac = info[@"BSSID"];
+        }
+    }
+    
+    NSArray *components = [mac componentsSeparatedByString:@":"];
+    
+    NSString *macToReturn = @"";
+    
+    for (NSString *component in components) {
+        if (component.length == 1) macToReturn = [macToReturn stringByAppendingFormat:@"0%@",component];
+        else macToReturn = [macToReturn stringByAppendingFormat:@"%@",component];
+        if ([components indexOfObject:component] != 5) macToReturn = [macToReturn stringByAppendingString:@"-"];
+    }
+    
+    return [macToReturn uppercaseString];
 }
 
 - (NSString *)getConnectionType {
