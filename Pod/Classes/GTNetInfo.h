@@ -13,8 +13,11 @@
 
 @property (nonatomic, readonly, getter=isConnected) BOOL connected;
 @property (nonatomic, readonly, getter=isWifi) BOOL wifi;
-@property (nonatomic, readonly) NSString *currentRadioTecnology;
-@property (nonatomic, readonly) NSString *currentSSID;
-@property (nonatomic, readonly) NSString *currentMAC;
+@property (nonatomic, readonly, getter=isProxy) BOOL proxy;
+@property (nonatomic, readonly) NSString *radioTecnology;
+@property (nonatomic, readonly) NSString *SSID;
+@property (nonatomic, readonly) NSString *MAC;
+@property (nonatomic, readonly) NSString *proxyAddress;
+@property (nonatomic, readonly) NSString *proxyPort;
 
 @end

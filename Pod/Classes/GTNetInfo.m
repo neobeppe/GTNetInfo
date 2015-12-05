@@ -19,11 +19,12 @@
         _wifi = [reach isReachableViaWiFi];
         _connected = [reach isReachable];
         if (_wifi) {
-            _currentSSID = [self currentWifiSSID];
-            _currentMAC = [self currentMACAddress];
+            _SSID = [self currentWifiSSID];
+            _MAC = [self currentMACAddress];
+            [self proxyFill];
         }
         if (_connected) {
-            _currentRadioTecnology = [self getConnectionType];
+            _radioTecnology = [self getConnectionType];
         }
     }
     return self;
@@ -71,5 +72,43 @@
     CTTelephonyNetworkInfo *telephonyInfo = [[CTTelephonyNetworkInfo alloc] init];
     return telephonyInfo.currentRadioAccessTechnology;
 }
+
+- (void)proxyFill {
+    
+    NSString *host = @"";
+    NSString *port = @"";
+    
+    CFDictionaryRef dicRef = CFNetworkCopySystemProxySettings();
+    const CFNumberRef portCFnum = (const CFNumberRef)CFDictionaryGetValue(dicRef, (const void*)kCFNetworkProxiesHTTPPort);
+    if (portCFnum) {
+        SInt32 portInt;
+        if (CFNumberGetValue(portCFnum, kCFNumberSInt32Type, &portInt)){
+            port = [NSString stringWithFormat:@"%d",(int)portInt];
+        }
+    }
+    
+    const CFStringRef proxyCFstr = (const CFStringRef)CFDictionaryGetValue(dicRef, (const void*)kCFNetworkProxiesHTTPProxy);
+    char buffer[4096];
+    memset(buffer, 0, 4096);
+    if (proxyCFstr) {
+        if (CFStringGetCString(proxyCFstr, buffer, 4096, kCFStringEncodingUTF8))
+        {
+            host = [NSString stringWithFormat:@"%s",buffer];
+        }
+    }
+    
+    if ([host isEqualToString:@""] && [port isEqualToString:@""]) {
+        _proxy = NO;
+        _proxyAddress = nil;
+        _proxyPort = nil;
+    }
+    else {
+        _proxy = YES;
+        _proxyAddress = host;
+        _proxyPort = port;
+    }
+}
+
+
 
 @end
