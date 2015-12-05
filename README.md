@@ -1,6 +1,6 @@
 # GTNetInfo
 
-[![CI Status](http://img.shields.io/travis/Giuseppe Travasoni/GTNetInfo.svg?style=flat)](https://travis-ci.org/Giuseppe Travasoni/GTNetInfo)
+[![CI Status](http://img.shields.io/travis/neobeppe/GTNetInfo.svg?style=flat)](https://travis-ci.org/neobeppe/GTNetInfo)
 [![Version](https://img.shields.io/cocoapods/v/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
 [![License](https://img.shields.io/cocoapods/l/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
 [![Platform](https://img.shields.io/cocoapods/p/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
