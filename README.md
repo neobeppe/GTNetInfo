@@ -4,7 +4,9 @@
 [![Version](https://img.shields.io/cocoapods/v/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
 [![License](https://img.shields.io/cocoapods/l/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
 [![Platform](https://img.shields.io/cocoapods/p/GTNetInfo.svg?style=flat)](http://cocoapods.org/pods/GTNetInfo)
-##Info
+
+## Info
+
 This is a very first alpha release of NetInfo. This library give you an istant access to connectivity status of your device as a snapshot.
 
 ## Installation
